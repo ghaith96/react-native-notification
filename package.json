@@ -1,0 +1,33 @@
+{
+  "name": "@emanon_/react-native-notification",
+  "title": "Notification",
+  "version": "1.0.3",
+  "description": "TODO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitee.com/jebai0521/react-native-notification.git",
+    "baseUrl": "https://gitee.com/jebai0521/react-native-notification"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "jebai0521",
+    "email": "jebai0521@gmail.com"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-native": ">=0.60.1-rc.0 <1.0.x"
+  },
+  "devDependencies": {
+    "react": "^16.8.3",
+    "react-native": "^0.59.10"
+  }
+}
