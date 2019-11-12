@@ -11,13 +11,13 @@ or
 
 ### Automatic installation
 
-please Use react-native 0.60+, it will be autolink.
+React-Native 0.60+ will autolink it.
 
 #### iOS
 
 1. `$ cd ios`
 2. `$ pod install`
-3. updte AppDelegate
+3. upadte AppDelegate
 
 ```objectivec
 #import "Notifications.h"  // <-- Add this line
@@ -45,7 +45,7 @@ Add the `NotificationsPackage` to your `android/app/src/main/java/com/[app name]
 
 ```java
 import com.facebook.react.ReactApplication;
-import com.emanon.notifications.NotificationsPackage;// <-- Add this line
+import com.emanon.notifications.NotificationsPackage; // <-- Add this line
 
 public class MainApplication extends Application implements ReactApplication {
 
@@ -68,11 +68,11 @@ public class MainApplication extends Application implements ReactApplication {
 
 ### Manual installation
 
-Manual installation is not recommend, please Use react-native 0.60+.
+Manual installation is not recommended, please use react-native 0.60+.
 
 ## Usage
 
-Most usage is like notifications in `react-native-firebase`
+The syntax is similar to `react-native-firebase`
 
 ```javascript
 import { NotificationApp } from '@emanon_/react-native-notification';
@@ -138,9 +138,3 @@ NotificationApp.notifications().scheduleNotification(notification, {
 
 
 ```
-
-### TODO
-
-- APNS
-- Firebase Cloude Message & GCM Message
-- CN Push
